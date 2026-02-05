@@ -1,8 +1,8 @@
 # question 1
 weight = 78
 height = 1.75
-bmi = weight / height ** 2
-print("This is the bmi of the person: ", bmi)
+BMI = (weight) / (height ** 2)
+print("This is the BMI of the person: ", BMI)
 
 # question 2
 # Perimeter
