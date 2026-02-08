@@ -1,5 +1,5 @@
 # Tuple
-# Is an imutable type of a list (It cannot chnage)
+# Is an imutable type of a list (It cannot change)
 # To introduce a tuple, we use parenthesis ()
 
 counties = ("Nairobi", "Mombasa", "Nakuru", "Eldoret", "Kajiado", "Kisii")

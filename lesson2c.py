@@ -1,5 +1,5 @@
 # A dictionary is a data type that stores data in terms of key - value pair.
-# It is introduced by the use pf the curly braces {} 
+# It is introduced by the use of the curly braces {} 
 # The values stored inside of a dictionary can be of any data type.
 # To access the values in a dictionary we use the keys.
 
@@ -23,7 +23,14 @@ print('==================')
 player = {
     "name" : "Messi",
     "age" : 40,
-    "teams" : ["PSG", "Barcelona", "Argentina"]
+    "teams" : ["PSG", "Barcelona", "Argentina"],
+    "more" : {
+        "children" : 3,
+        "residence" : "US",
+        "phone" : (254774522, 254765344, 25476531)
+     } 
+     
 }
 
 print(player["teams"][1])
+print(player["more"]["phone"][1])
