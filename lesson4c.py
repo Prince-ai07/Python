@@ -18,13 +18,18 @@ for county in counties:
 
 
 print("==========================")
-for county in counties: 
-    if "Mombasa" in counties:
-        print("Mombasa is found")
-        break
-    else:
-        print("Mombasa is not found")
+search = input("Enter the county: ")
 
+found = False
+for county in counties: 
+    if county == search:
+        found = True
+        break
+
+if found:
+    print(search, "is available")
+else:
+    print(search, "is not available")
 
 print("==========================")
 # A for loop can also be used to iterate through a dictionary

@@ -30,18 +30,6 @@ while number >= 150:
         print(number)
         number = number - 3
 
-# Research on python functions both in parameters and without parameters
-# Function without parameters:
-#  Used when: you don’t need user input, the task is fixed (like printing a message).
-
-
-
-# Function with parameters
-# This function accepts input(parameters) and works with it.
-
-# Function with multiple parameters
-# Function with return
-# Instead of printing, it sends back a value.
 
 
 
